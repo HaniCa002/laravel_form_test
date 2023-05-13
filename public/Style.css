@@ -1,0 +1,48 @@
+.form {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+  background-color: #007bffc2;
+  color: white;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+th {
+  padding: 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.216);
+  opacity: 0.9;
+}
+
+td {
+  padding: 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.216);
+}
+
+input {
+  width: 150px;
+  border-radius: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.377) 0px 3px 8px;
+  border: none;
+  opacity: 0.8;
+}
+
+#register {
+  width: 85px;
+  margin-top: 1rem;
+  transition: 0.3s;
+}
+
+#register:hover {
+  opacity: 1;
+}
