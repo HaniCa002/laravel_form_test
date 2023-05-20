@@ -15,7 +15,7 @@ class StudentController extends Controller
     public function index()
     {
         $students = Student::all();
-        return view('admin/students',compact(['students']));
+        return view('create-student',compact(['students']));
 
     }
 
